@@ -6,7 +6,7 @@ jobs:
   call-reusable:
     uses: ./.github/workflows/reusable.yml
     with:
-      nubmers: '[5, 15, 25, 35, 45]'
+      numbers: '[5, 15, 25, 35, 45]'
       
   show-summary:
     runs-on: ubuntu-latest
